@@ -1,0 +1,28 @@
+{
+	"name": "konservs/brilliant.tags",
+	"description": "Tags package for Brilliant Framework",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["tags", "brilliant"],
+	"homepage": "https://github.com/konservs/brilliant.tags",
+	"license": "MIT",
+	"authors": [
+		{
+		"name": "Andrii Biriev",
+		"email": "andrii.biriev@gmail.com",
+		"homepage": "https://konservs.com",
+		"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "andrii.biriev@gmail.com"
+	},
+	"require": {
+		"konservs/brilliant.framework": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brilliant\\Tags\\": "libraries/Tags"
+		}
+	}
+}
